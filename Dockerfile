@@ -1,6 +1,6 @@
 FROM golang:1.19.0-alpine as builder
 
-ENV PRISMA_VERSION="efdf9b1183dddfd4258cd181a72125755215ab7b"
+ENV PRISMA_VERSION="aead147aa326ccb985dcfed5b065b4fdabd44b19"
 ENV OS="linux-musl"
 ENV QUERY_ENGINE_URL="https://binaries.prisma.sh/all_commits/${PRISMA_VERSION}/${OS}/query-engine.gz"
 ENV MIGRATION_ENGINE_URL="https://binaries.prisma.sh/all_commits/${PRISMA_VERSION}/${OS}/migration-engine.gz"
